@@ -25,14 +25,14 @@ results, outTradeNo, err := wePay.AppPay(100))
 
 ## 完成
 APP支付
-
+小程序支付
 
 ## TODO
 APP登录
 H5登录
 Web登录
-公众号支付
 小程序支付
+公众号支付
 扫码支付
 刷卡支付
 企业付款
