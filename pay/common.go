@@ -1,4 +1,4 @@
-package wepay
+package pay
 
 import (
 	"encoding/xml"
