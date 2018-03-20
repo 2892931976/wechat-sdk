@@ -16,6 +16,11 @@ import (
 
 func NewRequest(method, url string, data []byte) (body []byte, err error) {
 
+	if method == "GET" {
+		url = fmt.Sprint(url, "?", string(data))
+		data = nil
+	}
+
 	client := http.Client{}
 	req, err := http.NewRequest(method, url, bytes.NewBuffer(data))
 	if err != nil {
