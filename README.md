@@ -36,4 +36,4 @@ results, outTradeNo, err := wePay.AppPay(100))
 - [ ] 扫码支付
 - [ ] 刷卡支付
 - [ ] 企业付款
-- [ ]
+- [ ] 现金红包
