@@ -25,7 +25,6 @@ type (
 	AppPayRet struct {
 		PayRet
 
-
 		AppId     string `json:"appid,omitempty"`     // 应用ID
 		PartnerId string `json:"partnerid,omitempty"` // 微信支付分配的商户号
 		PrepayId  string `json:"prepayid,omitempty"`  // 预支付交易会话ID
